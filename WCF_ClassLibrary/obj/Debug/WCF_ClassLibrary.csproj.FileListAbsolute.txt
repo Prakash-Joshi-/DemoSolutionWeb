@@ -1,0 +1,5 @@
+D:\Prakash\DemoSolutionWeb\WCF_ClassLibrary\bin\Debug\WCF_ClassLibrary.dll
+D:\Prakash\DemoSolutionWeb\WCF_ClassLibrary\bin\Debug\WCF_ClassLibrary.pdb
+D:\Prakash\DemoSolutionWeb\WCF_ClassLibrary\obj\Debug\WCF_ClassLibrary.csprojResolveAssemblyReference.cache
+D:\Prakash\DemoSolutionWeb\WCF_ClassLibrary\obj\Debug\WCF_ClassLibrary.dll
+D:\Prakash\DemoSolutionWeb\WCF_ClassLibrary\obj\Debug\WCF_ClassLibrary.pdb

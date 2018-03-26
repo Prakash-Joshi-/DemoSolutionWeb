@@ -1,0 +1,472 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb", "DemoWeb\DemoWeb.csproj", "{EC15AF46-8715-4085-83CA-491B67ACAF72}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ajaxshowprogressbarwhileupload", "ajaxshowprogressbarwhileupload\", "{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ajaxshowprogressbarwhileupload"
+		Debug.AspNetCompiler.PhysicalPath = "ajaxshowprogressbarwhileupload\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ajaxshowprogressbarwhileupload\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ajaxshowprogressbarwhileupload"
+		Release.AspNetCompiler.PhysicalPath = "ajaxshowprogressbarwhileupload\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ajaxshowprogressbarwhileupload\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2134"
+		SlnRelativePath = "ajaxshowprogressbarwhileupload\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CombresDemo", "CombresDemo\", "{36C48502-5E8F-4EC8-A79C-5A1C07435924}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/CombresDemo"
+		Debug.AspNetCompiler.PhysicalPath = "CombresDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CombresDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CombresDemo"
+		Release.AspNetCompiler.PhysicalPath = "CombresDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CombresDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2135"
+		SlnRelativePath = "CombresDemo\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DemoWeb(1)", "DemoWeb\", "{680FFC72-2AE2-4A00-818F-A052ECD6C802}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/DemoWeb"
+		Debug.AspNetCompiler.PhysicalPath = "DemoWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DemoWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DemoWeb"
+		Release.AspNetCompiler.PhysicalPath = "DemoWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DemoWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2137"
+		SlnRelativePath = "DemoWeb\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jQueryCropImage", "jQueryCropImage\", "{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/jQueryCropImage"
+		Debug.AspNetCompiler.PhysicalPath = "jQueryCropImage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImage\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/jQueryCropImage"
+		Release.AspNetCompiler.PhysicalPath = "jQueryCropImage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImage\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2138"
+		SlnRelativePath = "jQueryCropImage\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "postDemo", "postDemo\", "{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/postDemo"
+		Debug.AspNetCompiler.PhysicalPath = "postDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\postDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/postDemo"
+		Release.AspNetCompiler.PhysicalPath = "postDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\postDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2139"
+		SlnRelativePath = "postDemo\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jQueryCropImageNew", "jQueryCropImageNew\", "{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/jQueryCropImageNew"
+		Debug.AspNetCompiler.PhysicalPath = "jQueryCropImageNew\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImageNew\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/jQueryCropImageNew"
+		Release.AspNetCompiler.PhysicalPath = "jQueryCropImageNew\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImageNew\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2146"
+		SlnRelativePath = "jQueryCropImageNew\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Asynchronous Multiple File Upload with jQuery", "Asynchronous Multiple File Upload with jQuery\", "{591966CB-8B59-4794-B2CB-2133CBDFE031}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Asynchronous Multiple File Upload with jQuery"
+		Debug.AspNetCompiler.PhysicalPath = "Asynchronous Multiple File Upload with jQuery\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Asynchronous Multiple File Upload with jQuery\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Asynchronous Multiple File Upload with jQuery"
+		Release.AspNetCompiler.PhysicalPath = "Asynchronous Multiple File Upload with jQuery\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Asynchronous Multiple File Upload with jQuery\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3928"
+		SlnRelativePath = "Asynchronous Multiple File Upload with jQuery\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Upload File without Reloading using Handler", "Upload File without Reloading using Handler\", "{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Upload File without Reloading using Handler"
+		Debug.AspNetCompiler.PhysicalPath = "Upload File without Reloading using Handler\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Upload File without Reloading using Handler\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Upload File without Reloading using Handler"
+		Release.AspNetCompiler.PhysicalPath = "Upload File without Reloading using Handler\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Upload File without Reloading using Handler\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4327"
+		SlnRelativePath = "Upload File without Reloading using Handler\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF Cache Demo", "WCF Cache Demo\WCF Cache Demo.csproj", "{0AC74741-B105-474D-A8B6-516AE3A13A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{DF3A1808-0B47-4F61-BC1F-EE2FD991CC37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Josn demo", "Josn demo\Josn demo.csproj", "{EC450882-0230-49AA-9347-5EFA72C5DEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePicker", "DateTimePicker\DateTimePicker\DateTimePicker.csproj", "{1EFC17AD-5E19-46F8-BD98-A05D211063BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphApplication", "GraphApplication\GraphApplication\GraphApplication.csproj", "{3A682DDE-737E-474D-A0A3-68F5E6209633}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jQuery_AJAX_Database", "http://localhost:50316", "{433E77B8-3471-436F-8221-C622F9C990DC}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50316"
+		Debug.AspNetCompiler.PhysicalPath = "jQuery_AJAX_Database\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50316\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50316"
+		Release.AspNetCompiler.PhysicalPath = "jQuery_AJAX_Database\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50316\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "jQuery_AJAX_Database\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryGridASPNET", "jQueryGridASPNET\jQueryGridASPNET.csproj", "{CBA9423C-3F15-4F36-AF9D-E422ED6A3E5C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://localhost:50334", "{EBECCC29-88A0-46EF-8A48-76AF56A287F5}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50334"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50334\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50334"
+		Release.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50334\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WebSite1\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSiteWithDatabse", "http://localhost:50335", "{B3D74872-D206-42B0-900A-08BF1B677A46}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50335"
+		Debug.AspNetCompiler.PhysicalPath = "WebSiteWithDatabse\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50335\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50335"
+		Release.AspNetCompiler.PhysicalPath = "WebSiteWithDatabse\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50335\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WebSiteWithDatabse\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jquery_Datatable_Demo", "Jquery_Datatable_Demo\Jquery_Datatable_Demo.csproj", "{01F9939E-A205-430E-A8FD-57575F1BA4B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionDemo", "CollectionDemo\CollectionDemo.csproj", "{D3FF8DA7-16C3-4537-9D60-F0D10E138D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fetch and display data from WEBAPI in ASP.NET MVC", "Fetch and display data from WEBAPI in ASP.NET MVC\Fetch and display data from WEBAPI in ASP.NET MVC.csproj", "{AAE5BD6C-5920-4881-B47E-BC86B3378327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramDemoAsp.net", "InstagramDemoAsp.net\InstagramDemoAsp.net.csproj", "{B8A9F276-645E-48B7-A831-6B86D262A691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtsavFashionBidDemo", "UtsavFashionBidDemo\UtsavFashionBidDemo.csproj", "{5B47B4D6-A54D-4768-9848-95C3AB723E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchangeWebFormsAPI", "CurrencyExchangeWebFormsAPI\CurrencyExchangeWebFormsAPI.csproj", "{EAA1656D-085C-4EE8-B844-4FA5991EBDF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autocomplete", "Autocomplete\Autocomplete.csproj", "{A15DE17E-238E-4FC6-865F-5E718E94836C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookDemoAsp.net", "FacebookDemoAsp.net\FacebookDemoAsp.net.csproj", "{87240ECC-C7E2-4BAC-957E-1CE5E8E98BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_ClassLibrary", "WCF_ClassLibrary\WCF_ClassLibrary.csproj", "{90252063-650A-4083-AA22-980BF26454E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_ServiceHost_Web", "WCF_ServiceHost_Web\WCF_ServiceHost_Web.csproj", "{2511E585-B62D-44A9-AC38-A3900B0683FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAPI_DemoAsp.net", "TwitterAPI_Demo\TwitterAPI_DemoAsp.net.csproj", "{FFE8C83B-4D98-4C20-A092-EC07EBFE8383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF Demo WebForms", "WCF Demo WebForms\WCF Demo WebForms.csproj", "{D22035A0-4391-458E-8027-AB92E0946EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC Database First", "MVC Database First\MVC Database First.csproj", "{63D9BE06-2EDB-4D43-A97D-B80C3300CD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC Database First ContosoUniversityData", "MVC Database First ContosoUniversityData\MVC Database First ContosoUniversityData.csproj", "{1A53E452-C185-4DAF-BAD3-F55311006D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookServiceWEB", "BookService-master\BookServiceWEB\BookServiceWEB.csproj", "{03CD3B20-E8FF-4000-B7AE-723F2EA5A1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CURDOperationFromFancybox", "CURDOperationFromFancybox\CURDOperationFromFancybox\CURDOperationFromFancybox.csproj", "{A810ECC5-CB8D-4871-9B23-2FBFAACDFDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOperatoins", "ImageOperatoins\ImageOperatoins.csproj", "{BCF89FE6-285D-4A8B-A797-AD9E08A857E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF Async Demo", "WCF Async Demo\WCF Async Demo.csproj", "{FAB18A0B-2415-4A7B-B975-F9B32CAE32A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo", "WebApiDemo\WebApiDemo.csproj", "{C6ADD93F-6369-4674-9F48-134587290767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo.Tests", "WebApiDemo.Tests\WebApiDemo.Tests.csproj", "{DA3C7D52-BD94-4666-B029-3C437051B6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonServicesWebForm", "AmazonServicesWebForm\AmazonServicesWebForm.csproj", "{5A02C16A-4350-4DAD-B420-35ECE073AF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB API Cache Demo", "WEB API Cache Demo\WEB API Cache Demo.csproj", "{597C6FC5-AE3E-4DF9-A072-22D4E6975678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIDemoRoute", "WebAPIDemoRoute\WebAPIDemoRoute.csproj", "{4F1332C2-EA34-44AB-8B49-E1EDB8A291DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0AC74741-B105-474D-A8B6-516AE3A13A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC74741-B105-474D-A8B6-516AE3A13A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC74741-B105-474D-A8B6-516AE3A13A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC74741-B105-474D-A8B6-516AE3A13A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3A1808-0B47-4F61-BC1F-EE2FD991CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3A1808-0B47-4F61-BC1F-EE2FD991CC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3A1808-0B47-4F61-BC1F-EE2FD991CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3A1808-0B47-4F61-BC1F-EE2FD991CC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC450882-0230-49AA-9347-5EFA72C5DEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC450882-0230-49AA-9347-5EFA72C5DEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC450882-0230-49AA-9347-5EFA72C5DEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC450882-0230-49AA-9347-5EFA72C5DEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFC17AD-5E19-46F8-BD98-A05D211063BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFC17AD-5E19-46F8-BD98-A05D211063BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFC17AD-5E19-46F8-BD98-A05D211063BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFC17AD-5E19-46F8-BD98-A05D211063BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A682DDE-737E-474D-A0A3-68F5E6209633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A682DDE-737E-474D-A0A3-68F5E6209633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A682DDE-737E-474D-A0A3-68F5E6209633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A682DDE-737E-474D-A0A3-68F5E6209633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433E77B8-3471-436F-8221-C622F9C990DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433E77B8-3471-436F-8221-C622F9C990DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433E77B8-3471-436F-8221-C622F9C990DC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{433E77B8-3471-436F-8221-C622F9C990DC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CBA9423C-3F15-4F36-AF9D-E422ED6A3E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA9423C-3F15-4F36-AF9D-E422ED6A3E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA9423C-3F15-4F36-AF9D-E422ED6A3E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA9423C-3F15-4F36-AF9D-E422ED6A3E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBECCC29-88A0-46EF-8A48-76AF56A287F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBECCC29-88A0-46EF-8A48-76AF56A287F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBECCC29-88A0-46EF-8A48-76AF56A287F5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBECCC29-88A0-46EF-8A48-76AF56A287F5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B3D74872-D206-42B0-900A-08BF1B677A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D74872-D206-42B0-900A-08BF1B677A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D74872-D206-42B0-900A-08BF1B677A46}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D74872-D206-42B0-900A-08BF1B677A46}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{01F9939E-A205-430E-A8FD-57575F1BA4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F9939E-A205-430E-A8FD-57575F1BA4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F9939E-A205-430E-A8FD-57575F1BA4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F9939E-A205-430E-A8FD-57575F1BA4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FF8DA7-16C3-4537-9D60-F0D10E138D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FF8DA7-16C3-4537-9D60-F0D10E138D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FF8DA7-16C3-4537-9D60-F0D10E138D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FF8DA7-16C3-4537-9D60-F0D10E138D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE5BD6C-5920-4881-B47E-BC86B3378327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE5BD6C-5920-4881-B47E-BC86B3378327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE5BD6C-5920-4881-B47E-BC86B3378327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE5BD6C-5920-4881-B47E-BC86B3378327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A9F276-645E-48B7-A831-6B86D262A691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A9F276-645E-48B7-A831-6B86D262A691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A9F276-645E-48B7-A831-6B86D262A691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A9F276-645E-48B7-A831-6B86D262A691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B47B4D6-A54D-4768-9848-95C3AB723E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B47B4D6-A54D-4768-9848-95C3AB723E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B47B4D6-A54D-4768-9848-95C3AB723E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B47B4D6-A54D-4768-9848-95C3AB723E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA1656D-085C-4EE8-B844-4FA5991EBDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA1656D-085C-4EE8-B844-4FA5991EBDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA1656D-085C-4EE8-B844-4FA5991EBDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA1656D-085C-4EE8-B844-4FA5991EBDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15DE17E-238E-4FC6-865F-5E718E94836C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15DE17E-238E-4FC6-865F-5E718E94836C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15DE17E-238E-4FC6-865F-5E718E94836C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15DE17E-238E-4FC6-865F-5E718E94836C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87240ECC-C7E2-4BAC-957E-1CE5E8E98BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87240ECC-C7E2-4BAC-957E-1CE5E8E98BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87240ECC-C7E2-4BAC-957E-1CE5E8E98BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87240ECC-C7E2-4BAC-957E-1CE5E8E98BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90252063-650A-4083-AA22-980BF26454E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90252063-650A-4083-AA22-980BF26454E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90252063-650A-4083-AA22-980BF26454E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90252063-650A-4083-AA22-980BF26454E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2511E585-B62D-44A9-AC38-A3900B0683FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2511E585-B62D-44A9-AC38-A3900B0683FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2511E585-B62D-44A9-AC38-A3900B0683FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2511E585-B62D-44A9-AC38-A3900B0683FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE8C83B-4D98-4C20-A092-EC07EBFE8383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE8C83B-4D98-4C20-A092-EC07EBFE8383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE8C83B-4D98-4C20-A092-EC07EBFE8383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE8C83B-4D98-4C20-A092-EC07EBFE8383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22035A0-4391-458E-8027-AB92E0946EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22035A0-4391-458E-8027-AB92E0946EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22035A0-4391-458E-8027-AB92E0946EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22035A0-4391-458E-8027-AB92E0946EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D9BE06-2EDB-4D43-A97D-B80C3300CD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D9BE06-2EDB-4D43-A97D-B80C3300CD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D9BE06-2EDB-4D43-A97D-B80C3300CD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D9BE06-2EDB-4D43-A97D-B80C3300CD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A53E452-C185-4DAF-BAD3-F55311006D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A53E452-C185-4DAF-BAD3-F55311006D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A53E452-C185-4DAF-BAD3-F55311006D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A53E452-C185-4DAF-BAD3-F55311006D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CD3B20-E8FF-4000-B7AE-723F2EA5A1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CD3B20-E8FF-4000-B7AE-723F2EA5A1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CD3B20-E8FF-4000-B7AE-723F2EA5A1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CD3B20-E8FF-4000-B7AE-723F2EA5A1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A810ECC5-CB8D-4871-9B23-2FBFAACDFDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A810ECC5-CB8D-4871-9B23-2FBFAACDFDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A810ECC5-CB8D-4871-9B23-2FBFAACDFDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A810ECC5-CB8D-4871-9B23-2FBFAACDFDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF89FE6-285D-4A8B-A797-AD9E08A857E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF89FE6-285D-4A8B-A797-AD9E08A857E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF89FE6-285D-4A8B-A797-AD9E08A857E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF89FE6-285D-4A8B-A797-AD9E08A857E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB18A0B-2415-4A7B-B975-F9B32CAE32A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB18A0B-2415-4A7B-B975-F9B32CAE32A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB18A0B-2415-4A7B-B975-F9B32CAE32A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB18A0B-2415-4A7B-B975-F9B32CAE32A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6ADD93F-6369-4674-9F48-134587290767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6ADD93F-6369-4674-9F48-134587290767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6ADD93F-6369-4674-9F48-134587290767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6ADD93F-6369-4674-9F48-134587290767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3C7D52-BD94-4666-B029-3C437051B6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3C7D52-BD94-4666-B029-3C437051B6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3C7D52-BD94-4666-B029-3C437051B6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3C7D52-BD94-4666-B029-3C437051B6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A02C16A-4350-4DAD-B420-35ECE073AF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A02C16A-4350-4DAD-B420-35ECE073AF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A02C16A-4350-4DAD-B420-35ECE073AF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A02C16A-4350-4DAD-B420-35ECE073AF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597C6FC5-AE3E-4DF9-A072-22D4E6975678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597C6FC5-AE3E-4DF9-A072-22D4E6975678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597C6FC5-AE3E-4DF9-A072-22D4E6975678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597C6FC5-AE3E-4DF9-A072-22D4E6975678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1332C2-EA34-44AB-8B49-E1EDB8A291DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1332C2-EA34-44AB-8B49-E1EDB8A291DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1332C2-EA34-44AB-8B49-E1EDB8A291DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1332C2-EA34-44AB-8B49-E1EDB8A291DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

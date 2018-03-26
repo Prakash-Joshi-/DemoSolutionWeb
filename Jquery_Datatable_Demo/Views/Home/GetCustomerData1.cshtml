@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "www.mitechdev.com";
+}
+<h2>Jquery DataTables in ASP.NET MVC5</h2>
+<!--Add Jquery Datatable reference files-->
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" />
+<div style="width:90%;">
+    <table id="Jdatatable" class="table table-responsive table-bordered">
+        @*<thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Company Working</th>
+                <th>Email ID</th>
+                <th>Phone Number</th>
+                <th>City</th>
+                <th>Salary</th>
+                <th>State</th>
+            </tr>
+        </thead>*@
+    </table>
+</div>
+@section scripts{
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#Jdatatable").DataTable({
+                "ajax": {
+                    "url": "http://udesign.utsav.bz:3000/api/v1/mmt/getmmtlist?customerid=564104&appid=10001&checksum=fd61ee2df4860074e7d5494c9619f0b5&returntype=json",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+                "columns": [
+                            { "Measuremntlist": "id", "autoWidth": true },
+                            { "Measuremntlist": "mmtname", "autoWidth": true },
+                            { "Measuremntlist": "createddate", "autoWidth": true },
+                            { "Measuremntlist": "orderid", "autoWidth": true },
+                            { "Measuremntlist": "category", "autoWidth": true }
+                ]
+            });
+        });
+    </script>
+}

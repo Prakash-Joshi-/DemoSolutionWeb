@@ -1,0 +1,20 @@
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\WCF Demo WebForms.dll.config
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\WCF Demo WebForms.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\WCF Demo WebForms.pdb
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Antlr3.Runtime.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\AspNet.ScriptManager.jQuery.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Microsoft.Web.Infrastructure.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Newtonsoft.Json.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\System.Web.Optimization.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\WebGrease.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\System.Web.Optimization.xml
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Antlr3.Runtime.pdb
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Newtonsoft.Json.xml
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\obj\Debug\WCF Demo WebForms.dll
+D:\Prakash\DemoSolutionWeb\WCF Demo WebForms\obj\Debug\WCF Demo WebForms.pdb

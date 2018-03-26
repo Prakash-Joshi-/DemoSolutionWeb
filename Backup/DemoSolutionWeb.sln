@@ -1,0 +1,213 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb", "DemoWeb\DemoWeb.csproj", "{EC15AF46-8715-4085-83CA-491B67ACAF72}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ajaxshowprogressbarwhileupload", "ajaxshowprogressbarwhileupload\", "{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ajaxshowprogressbarwhileupload"
+		Debug.AspNetCompiler.PhysicalPath = "ajaxshowprogressbarwhileupload\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ajaxshowprogressbarwhileupload\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ajaxshowprogressbarwhileupload"
+		Release.AspNetCompiler.PhysicalPath = "ajaxshowprogressbarwhileupload\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ajaxshowprogressbarwhileupload\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2134"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CombresDemo", "CombresDemo\", "{36C48502-5E8F-4EC8-A79C-5A1C07435924}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/CombresDemo"
+		Debug.AspNetCompiler.PhysicalPath = "CombresDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CombresDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CombresDemo"
+		Release.AspNetCompiler.PhysicalPath = "CombresDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CombresDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2135"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DemoWeb", "DemoWeb\", "{680FFC72-2AE2-4A00-818F-A052ECD6C802}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/DemoWeb"
+		Debug.AspNetCompiler.PhysicalPath = "DemoWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DemoWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DemoWeb"
+		Release.AspNetCompiler.PhysicalPath = "DemoWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DemoWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2137"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jQueryCropImage", "jQueryCropImage\", "{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/jQueryCropImage"
+		Debug.AspNetCompiler.PhysicalPath = "jQueryCropImage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImage\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/jQueryCropImage"
+		Release.AspNetCompiler.PhysicalPath = "jQueryCropImage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImage\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2138"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "postDemo", "postDemo\", "{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/postDemo"
+		Debug.AspNetCompiler.PhysicalPath = "postDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\postDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/postDemo"
+		Release.AspNetCompiler.PhysicalPath = "postDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\postDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2139"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jQueryCropImageNew", "jQueryCropImageNew\", "{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/jQueryCropImageNew"
+		Debug.AspNetCompiler.PhysicalPath = "jQueryCropImageNew\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImageNew\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/jQueryCropImageNew"
+		Release.AspNetCompiler.PhysicalPath = "jQueryCropImageNew\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\jQueryCropImageNew\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2146"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Asynchronous Multiple File Upload with jQuery", "Asynchronous Multiple File Upload with jQuery\", "{591966CB-8B59-4794-B2CB-2133CBDFE031}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Asynchronous Multiple File Upload with jQuery"
+		Debug.AspNetCompiler.PhysicalPath = "Asynchronous Multiple File Upload with jQuery\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Asynchronous Multiple File Upload with jQuery\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Asynchronous Multiple File Upload with jQuery"
+		Release.AspNetCompiler.PhysicalPath = "Asynchronous Multiple File Upload with jQuery\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Asynchronous Multiple File Upload with jQuery\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3928"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Upload File without Reloading using Handler", "Upload File without Reloading using Handler\", "{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Upload File without Reloading using Handler"
+		Debug.AspNetCompiler.PhysicalPath = "Upload File without Reloading using Handler\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Upload File without Reloading using Handler\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Upload File without Reloading using Handler"
+		Release.AspNetCompiler.PhysicalPath = "Upload File without Reloading using Handler\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Upload File without Reloading using Handler\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4327"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC15AF46-8715-4085-83CA-491B67ACAF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7F84B-C67E-415F-99AF-CB7AF3D61715}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C48502-5E8F-4EC8-A79C-5A1C07435924}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{680FFC72-2AE2-4A00-818F-A052ECD6C802}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA406CF5-A9CA-4832-A1E6-EF5E731250BF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{552E9A79-D255-4ED7-9F21-5E4753ADF9E6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE88FA4-E23B-4691-B20D-24B2A6ED3C4E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{591966CB-8B59-4794-B2CB-2133CBDFE031}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2A66FE-BA46-4172-BAD2-5C3F3B7300A5}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

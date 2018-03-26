@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Fetching data from Server";
+}
+<h2>WebAPI Example part1</h2>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+http://www.mitechdev.com/2016/08/how-to-fetch-and-display-data-from-webapi.html
+<script type="text/javascript">
+    $(document).ready(function () {
+        var uri = 'http://localhost:53120/api/UserTable';
+        $("#btnLoad").click(function () {
+            $.ajax({
+                url: uri,
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    //debugger;
+                    //I am creating table using jquery
+                    var table = $("<table/>").addClass("table table-responsive table-bordered");
+                    var header = $("<thead/>").html("<tr><th>UserID</th><th>FullName</th><th>Email</th><th>Contact</th><th>Address</th>");
+                    table.append(header);
+                    $.each(data, function (i,val) {
+                        var row = $("<tr/>");
+                        row.append($("<td/>").html(val.UserID));
+                        row.append($("<td/>").html(val.FullName));
+                        row.append($("<td/>").html(val.Email));
+                        row.append($("<td/>").html(val.Contact));
+                        row.append($("<td/>").html(val.Address));
+                        table.append(row);
+                    });
+                    $("#diplayPanel").html(table);
+                },
+                error: function () {
+                    alert("An error occured while getting data");
+                }
+            });
+        });
+    });
+</script>
+
+<div>
+    <input type="button" class="btn btn-success" value="Load Data from API" id="btnLoad" />
+    <br /><br />
+    <div id="diplayPanel"></div>
+</div>

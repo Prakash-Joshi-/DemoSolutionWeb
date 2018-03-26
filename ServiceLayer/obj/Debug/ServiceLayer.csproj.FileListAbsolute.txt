@@ -1,0 +1,5 @@
+D:\Prakash\DemoSolutionWeb\ServiceLayer\bin\Debug\ServiceLayer.dll
+D:\Prakash\DemoSolutionWeb\ServiceLayer\bin\Debug\ServiceLayer.pdb
+D:\Prakash\DemoSolutionWeb\ServiceLayer\obj\Debug\ServiceLayer.dll
+D:\Prakash\DemoSolutionWeb\ServiceLayer\obj\Debug\ServiceLayer.pdb
+D:\Prakash\DemoSolutionWeb\ServiceLayer\obj\Debug\ServiceLayer.csprojResolveAssemblyReference.cache

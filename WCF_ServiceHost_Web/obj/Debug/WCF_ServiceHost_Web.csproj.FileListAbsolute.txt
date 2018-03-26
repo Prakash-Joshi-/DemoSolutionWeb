@@ -1,0 +1,8 @@
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\bin\WCF_ServiceHost_Web.dll.config
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\bin\WCF_ServiceHost_Web.dll
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\bin\WCF_ServiceHost_Web.pdb
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\bin\WCF_ClassLibrary.dll
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\bin\WCF_ClassLibrary.pdb
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\obj\Debug\WCF_ServiceHost_Web.csprojResolveAssemblyReference.cache
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\obj\Debug\WCF_ServiceHost_Web.dll
+D:\Prakash\DemoSolutionWeb\WCF_ServiceHost_Web\obj\Debug\WCF_ServiceHost_Web.pdb

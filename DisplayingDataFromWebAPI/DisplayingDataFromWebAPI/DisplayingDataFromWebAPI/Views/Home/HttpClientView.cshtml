@@ -1,0 +1,32 @@
+﻿@model IEnumerable<DisplayingDataFromWebAPI.Models.UserTable>
+@{
+    ViewBag.Title = "Web API part 2";
+}
+
+<h2>Displaing Web API data using HttpClient</h2>
+<div>
+    <table class="table table-responsive table-bordered">
+        <thead>
+            <tr>
+                <th>UserID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                <tr>
+                    <td>@i.UserID</td>
+                    <td>@i.FullName</td>
+                    <td>@i.Email</td>
+                    <td>@i.Contact</td>
+                    <td>@i.Address</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

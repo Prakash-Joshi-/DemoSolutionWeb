@@ -1,0 +1,55 @@
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\MVC Database First ContosoUniversityData.dll.config
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\MVC Database First ContosoUniversityData.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\MVC Database First ContosoUniversityData.pdb
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Antlr3.Runtime.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\EntityFramework.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\EntityFramework.SqlServer.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Google.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Web.Infrastructure.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Newtonsoft.Json.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Owin.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Helpers.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Mvc.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Optimization.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Razor.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.WebPages.Deployment.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.WebPages.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.WebPages.Razor.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\WebGrease.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\EntityFramework.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\EntityFramework.SqlServer.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Helpers.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Mvc.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Optimization.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.Razor.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.WebPages.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.WebPages.Deployment.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\System.Web.WebPages.Razor.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Antlr3.Runtime.pdb
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Newtonsoft.Json.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Google.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\obj\Debug\MVC Database First ContosoUniversityData.dll
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\obj\Debug\MVC Database First ContosoUniversityData.pdb
+D:\Prakash\DemoSolutionWeb\MVC Database First ContosoUniversityData\obj\Debug\MVC Database First ContosoUniversityData.csprojResolveAssemblyReference.cache

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Fetching data from Server";
+}
+
+<h2>WebAPI Example part1</h2>
+
+<script src="~/Scripts/jquery-1.9.1.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var uri = 'http://localhost:47495/api/WebAPI';
+        $("#btnLoad").click(function () {
+            $.ajax({
+                url: uri,
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    debugger;
+                    var table = $("<table/>").addClass("table table-responsive table-bordered");
+                    var header = $("<thead/>").html("<tr><th>UserID</th><th>FullName</th><th>Email</th><th>Contact</th><th>Address</th>");
+                    table.append(header);
+                    $.each(data, function (i,val) {
+                        var row = $("<tr/>");
+                        row.append($("<td/>").html(val.UserID));
+                        row.append($("<td/>").html(val.FullName));
+                        row.append($("<td/>").html(val.Email));
+                        row.append($("<td/>").html(val.Contact));
+                        row.append($("<td/>").html(val.Address));
+                        table.append(row);
+                    });
+                    $("#diplayPanel").html(table);
+                },
+                error: function () {
+                    alert("An error occured while getting data");
+                }
+            });
+        });
+    });
+</script>
+
+<div>
+    <input type="button" class="btn btn-success" value="Load Data from API" id="btnLoad" />
+    <br/><br/>
+    <div id="diplayPanel"></div>
+</div>
+

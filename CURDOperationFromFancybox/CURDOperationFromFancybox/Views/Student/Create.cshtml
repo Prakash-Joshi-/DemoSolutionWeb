@@ -1,0 +1,76 @@
+﻿@model CURDOperationFromFancybox.Models.StudentInformation
+@{
+    ViewBag.Title = "Create";
+    Layout = null;
+}
+
+<html>
+<head>
+    <title></title>
+    <script src="~/Scripts/jquery-1.5.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+        .table-style {
+            margin-left: 150px;
+        }
+
+            .table-style tr td {
+                height: 50px;
+            }
+    </style>
+    <script type="text/javascript">
+        function OnSuccess(response) {
+            if (response == "success") {
+                parent.jQuery.fancybox.close();
+            } else {
+                alert("Error. Please check out");
+            }
+        }
+    </script>
+</head>
+<body style="background-color:#fff;">
+    <div style="height: 30px; width: 599.4px; background-color: #558cc3; border: 0px solid red; text-align: center;">
+        <b style="color: white;"> Create New Student</b>
+        <div style="float:right; height:30px; width:30px; border-left:1px solid #c8c8c8">
+            <a href="javascript:parent.jQuery.fancybox.close();" style="color: orange; cursor: pointer; text-decoration: none; "><i style="font-size:20px; text-decoration:none">X</i></a>
+        </div>
+    </div>
+    <br /><br />
+    @using (Ajax.BeginForm("Create", new AjaxOptions { HttpMethod = "POST", OnSuccess = "OnSuccess" }))
+    {
+        @Html.AntiForgeryToken()
+        <table class="table-style">
+            <tr>
+                <td>@Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", @style = "width:300px", placeholder = "First Name" })</td>
+                <td style="color:red">@Html.ValidationMessageFor(model => model.FirstName)</td>
+            </tr>
+            <tr>
+                <td>@Html.TextBoxFor(model => model.LastName, new { @class = "form-control", @style = "width:300px", placeholder = "Last Name" })</td>
+                <td style="color:red">@Html.ValidationMessageFor(model => model.LastName)</td>
+            </tr>
+            <tr>
+                <td>@Html.TextBoxFor(model => model.Course, new { @class = "form-control", @style = "width:300px", placeholder = "Course" })</td>
+                <td style="color:red">@Html.ValidationMessageFor(model => model.Course)</td>
+            </tr>
+            <tr>
+                <td>@Html.TextBoxFor(model => model.PhoneNo, new { @class = "form-control", @style = "width:300px", placeholder = "Phone Number" })</td>
+                <td style="color:red">@Html.ValidationMessageFor(model => model.PhoneNo)</td>
+            </tr>
+        </table>
+
+        <br />
+        <div class="form-group" style="margin-left:140px;">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" id="btnSubmit" value="Create" class="btn btn-primary" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-danger" href="javascript:parent.jQuery.fancybox.close();" style="cursor: pointer; text-decoration: none; ">Close</a>
+            </div>
+        </div>
+    }
+</body>
+</html>
+
+

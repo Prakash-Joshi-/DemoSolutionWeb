@@ -1,0 +1,63 @@
+﻿@model CURDOperationFromFancybox.Models.StudentInformation
+@{
+    ViewBag.Title = "Details";
+    Layout = null;
+}
+<html>
+<head>
+    <title></title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+        .table-style {
+            margin-left: 150px;
+        }
+
+            .table-style tr td {
+                height: 50px;
+            }
+    </style>
+</head>
+<body style="background-color:#fff;">
+    <div style="height: 30px; width: 599.4px; background-color: #99B2FF; border: 0px solid red; text-align: center;">
+        <b style="color: white;">Student Details</b>
+        <div style="float:right; height:30px; width:30px; border-left:1px solid #c8c8c8">
+            <a href="javascript:parent.jQuery.fancybox.close();" style="color: red; cursor: pointer; text-decoration: none; "><i style="font-size:20px; text-decoration:none">X</i></a>
+        </div>
+    </div>
+    <div>
+        <br /><br />
+        <table class="table-style">
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.FirstName): &nbsp;&nbsp;</td>
+                <td>@Html.DisplayFor(model => model.FirstName)</td>
+            </tr>
+
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.LastName): &nbsp;&nbsp;</td>
+                <td>@Html.DisplayFor(model => model.LastName)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.Course): &nbsp;&nbsp;</td>
+                <td>@Html.DisplayFor(model => model.Course)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.PhoneNo): &nbsp;&nbsp;</td>
+                <td>@Html.DisplayFor(model => model.PhoneNo)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a class="btn btn-danger" href="javascript:parent.jQuery.fancybox.close();" style="cursor: pointer; text-decoration: none; ">Close</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

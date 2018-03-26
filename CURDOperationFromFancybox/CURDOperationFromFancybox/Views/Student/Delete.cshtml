@@ -1,0 +1,78 @@
+﻿@model CURDOperationFromFancybox.Models.StudentInformation
+@{
+    ViewBag.Title = "Delete";
+    Layout = null;
+}
+<html>
+<head>
+    <title></title>
+    <script src="~/Scripts/jquery-1.5.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+        .table-style {
+            margin-left: 150px;
+        }
+
+            .table-style tr td {
+                height: 30px;
+            }
+    </style>
+    <script type="text/javascript">
+        function OnSuccess(response) {
+            if (response == "success") {
+                parent.jQuery.fancybox.close();
+            } else {
+                alert("Error. Please check out");
+            }
+        }
+    </script>
+
+</head>
+<body style="background-color:#fff;">
+    <div style="height: 30px; width: 599.4px; background-color: #558cc3; border: 0px solid red; text-align: center;">
+        <b style="color: white;">Are you sure to delete this student</b>
+        <div style="float:right; height:30px; width:30px; border-left:1px solid #c8c8c8">
+            <a href="javascript:parent.jQuery.fancybox.close();" style="color: red; cursor: pointer; text-decoration: none; "><i style="font-size:20px; text-decoration:none">X</i></a>
+        </div>
+    </div><br />
+    <table class="table-style">
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.FirstName): &nbsp;&nbsp;</td>
+            <td>@Html.DisplayFor(model => model.FirstName)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.LastName): &nbsp;&nbsp;</td>
+            <td>@Html.DisplayFor(model => model.LastName)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Course): &nbsp;&nbsp;</td>
+            <td>@Html.DisplayFor(model => model.Course)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.PhoneNo): &nbsp;&nbsp;</td>
+            <td>@Html.DisplayFor(model => model.PhoneNo)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                @using (Ajax.BeginForm("Delete", new AjaxOptions { HttpMethod = "POST", OnSuccess = "OnSuccess" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-actions no-color">
+                        <input type="submit" value="Delete" class="btn btn-primary" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="btn btn-danger" href="javascript:parent.jQuery.fancybox.close();" style="cursor: pointer; text-decoration: none; ">Close</a>
+                    </div>
+                }
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿{
+    "mmtdetails": [
+        {
+            "mmtid": 350193,
+            "mmtname": "Rakesh Testing",
+            "mmttype": "body fit",
+            "mmtformat": "inch",
+            "email": "govind21@gmail.com",
+            "domain": "US",
+            "Customername": "Customer",
+            "itemcategory": 1
+        }
+    ],
+    "mmtdetails1": [
+        {
+            "mmtid": 350193,
+            "filedname": "Around Bust",
+            "value": "32 inch"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Around Above Waist",
+            "value": "24 inch"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Blouse Length",
+            "value": "16 inch"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Front Neck Style",
+            "value": "As Shown"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Front Neck Depth",
+            "value": "2 inch"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Back Neck Style",
+            "value": "As Shown"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Back Neck Depth",
+            "value": "2 inch"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Sleeve Style",
+            "value": "As Shown"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Sleeve Length",
+            "value": "5 inch"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Around Arm",
+            "value": "11 inch"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Closing Side",
+            "value": "front"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Closing With",
+            "value": "hook"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Adornment Type",
+            "value": "Tassels 02"
+        },
+        {
+            "mmtid": 350193,
+            "filedname": "Adornment Placement",
+            "value": "Back Knot"
+        }
+    ]
+}

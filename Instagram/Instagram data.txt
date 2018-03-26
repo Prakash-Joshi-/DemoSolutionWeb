@@ -1,0 +1,202 @@
+.szHeader
+margin-left: 100px;
+
+
+.szType
+min-width: 100px;
+
+
+
+.szHeader li, .szBody li
+min-width: 150px;
+
+
+.szType
+min-width: 90px;
+8588856596
+
+line 1037
+line 1066 
+<a class='chart-cta' data-target=\"#divLoadSizeChart\" data-toggle=\"modal\" onclick=\"DynamicOverlayOn('USFUI/pipsizechart.aspx?mode=indo_Winter&amp;itemcode=" + itemcode + "&amp;typename=" + typename + "&imgpath=" + ImageUrlSizechart + "');dataLayer.push({'event' : 'Event-PIP-Click','eventCategory' : 'PIP-Click', 'eventAction' : 'SizeChart', 'eventLabel': '" + itemcode.ToString().ToUpper() + "', 'eventValue' : ''});\">View Size Chart</a>
+
+
+https://api.instagram.com/oauth/authorize/?client_id=
+
+
+https://api.instagram.com/v1/users/search?q=jack&access_token=1677602674.bea4693.3bdc016e3f2c48d0ab86965c010c897f
+
+https://api.instagram.com/v1/users/search?q=jack&client_id=bea46937ba264649808902d30d9716a3
+
+
+
+
+http://stackoverflow.com/questions/33863505/oauthpermissionsexception-instagram-api-in-sandbox
+
+https://www.instagram.com/oauth/authorize?client_id=b23670e258o0fmk334jfu287c9f9953&redirect_uri=http://127.0.0.1:5000&response_type=code&scope=basic+public_content+follower_list+comments+relationships+likes
+
+UPDATE: figured out what was going on. One need to first change the scope of the authorization for the application. This is how I did it:
+
+From your browser execute:
+
+https://api.instagram.com/oauth/authorize/?client_id=CLIENTID&redirect_uri=REDIRECT-URI&response_type=code&scope=SCOPE
+
+Just need to insert your data for the words in uppercase
+
+Once that is done, the application is authorized for that scope.
+
+As I had already the access token, I did not need to do steps 2 and 3.
+
+
+https://api.instagram.com/v1/users/1677602674/?access_token=1677602674.bea4693.3bdc016e3f2c48d0ab86965c010c897f
+
+{"meta": {"code": 200}, "data": {"username": "prakash_joshi_", "bio": "", "website": "", "profile_picture": "https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-19/11084778_432241730267476_721649515_a.jpg", "full_name": "Prakash Joshi", "counts": {"media": 4, "followed_by": 42, "follows": 44}, "id": "1677602674"}}
+
+
+clientid  bea46937ba264649808902d30d9716a3
+clientsecret  378f28a088c147a6b308ad8120c59d09
+
+code 	c30747a5472d4a1588f5d41cf5fd767c
+
+URL for getting media of user 
+https://api.instagram.com/v1/users/1677602674/media/recent?count=10&access_token=1677602674.bea4693.3bdc016e3f2c48d0ab86965c010c897f
+
+basic - to read a user’s profile info and media
+public_content - to read any public profile info and media on a user’s behalf
+follower_list - to read the list of followers and followed-by users
+comments - to post and delete comments on a user’s behalf
+relationships - to follow and unfollow accounts on a user’s behalf
+likes - to like and unlike media on a user’s behalf
+
+https://api.instagram.com/oauth/authorize/?client_id=bea46937ba264649808902d30d9716a3&redirect_uri=http://localhost:54092/&response_type=code&scope=public_content
+
+sauravsayssariya
+
+Saurav Devrani @sauravsayssariya
+User ID: 807707178
+@saurav_says_sariya
+User ID: 48796987
+
+Shakti @thakurshaktisingh15
+User ID: 3204299202
+
+Bhuvan Chander Bhatt @bhuvan_bhatt
+User ID: 2249084044
+
+some demo data 
+https://www.instagram.com/smena8m/media/?min_id=1045341392067624850_3108326
+https://www.instagram.com/thakurshaktisingh15/media/
+ user data 
+https://www.instagram.com/debug_mode/?__a=1
+
+url for 
+https://api.instagram.com/v1/users/search?q=username&access_token=141970.467ede5.edbc9c37472d41b790e1db8948793f11
+
+https://api.instagram.com/v1/users/search?q=prakash_joshi_&access_token=141970.467ede5.edbc9c37472d41b790e1db8948793f11
+
+link to get username and userID of instagram users by searching
+https://smashballoon.com/instagram-feed/find-instagram-user-id/?username=prakash_joshi_
+
+Prakash Joshi @prakash_joshi_
+User ID: 1677602674
+Präkäsh Jøshí @prakashjoshi97
+User ID: 2054231921
+Prakash Joshi Joshi @prakash__joshi
+User ID: 3067126057
+Prakash Joshi @prakashjoshipj
+User ID: 3698620977
+Prakash Joshi @prakash6439
+User ID: 3663214566
+Prakash Joshi @prakash.joshi2
+User ID: 1464417245
+Prakash Chandra Joshi @prakash.joshi
+User ID: 1411446382
+Prakash Joshi @prakash_joshi_101
+User ID: 3623217112
+Prakash joshi @prakash.joshi.04
+User ID: 1522882051
+joshi prakash @joshiprakash006
+User ID: 3732273332
+Prakash Joshi @prakashjoshi.pappu
+User ID: 3636774050
+Prakash Joshi Prakash Joshi @prakashjoship
+User ID: 3733244657
+Prakash Joshi @prakashjoshi965
+User ID: 3085562929
+Prakash Joshi @joshi.prakash63
+User ID: 3637654073
+Prakash Joshi @prakash.joshi.5074
+User ID: 1412365931
+Prakash Joshi @prakash.joshi.96995
+User ID: 1565838197
+Prakash Joshi @prakash.joshi.545402
+User ID: 1427373293
+Prakash Joshi @prakashjoshi634
+User ID: 3639638614
+Prakash Joshi @prakash.joshi.543
+User ID: 1422232715
+Om Prakash Joshi @joshiomprakash1992
+User ID: 3709729328
+Prakash Joshi @prakash_joshi12345
+User ID: 2996924100
+Joshi Prakash @prakash_joshi_14
+User ID: 3402143726
+Prakash Joshi @prakashjoshipp
+User ID: 1196895902
+Prakash Joshi @prakash.10joshi
+User ID: 1541896897
+Prakash Joshi @prakash_journalist
+User ID: 2056963836
+Prakash Joshi @prakash.joshi.5243
+User ID: 1438608318
+Prakash Joshi @joshi.prakash.upes
+User ID: 1719817874
+Prakash Joshi @prakash.joshi1998
+User ID: 3262734390
+Prakash Joshi @prakash.joshi.75873708
+User ID: 1679943673
+Prakash Joshi @prakash1451
+User ID: 2661158497
+Prakash Joshi @prakash.joshi.338
+User ID: 1314469806
+Prakash Joshi @prakash.joshi.77985
+User ID: 1562572221
+Prakash Joshi @joshi.prakash1985
+User ID: 3095773565
+Prakash Joshi @prakash.joshi588
+User ID: 2092607831
+Prakash Joshi @prakashjoshi153
+User ID: 3108814210
+Prakash Joshi @prakash.joshi.7370013
+User ID: 1478672840
+Prakash Joshi @prakash.joshi.9809
+User ID: 1610489398
+prakash @joshiprakash149
+User ID: 3698847966
+Prakash Joshi @joshiprakash4466
+User ID: 1755875410
+P R A k A s H J o S h I @prakashjoshi_
+User ID: 2520901569
+Prakash joshi @joshiprakash425
+User ID: 1941405107
+Prakash Joshi @prakas_joshi
+User ID: 1478144618
+@prakash.joshi1
+User ID: 1721725346
+prakash joshi @prakashjoshi058
+User ID: 351377051
+Prakash Joshi @prakash.joshi.79230
+User ID: 1503243845
+Prakash Joshi @prakash.joshi64
+User ID: 2345068697
+Prakash Joshi @prakashjoshi2121
+User ID: 2322063193
+prakash joshi @prakash.d.joshi
+User ID: 3086663694
+Prakash Joshi @prakash.espa
+User ID: 3564728862
+prakash Joshi @peksjassi
+User ID: 417206598
+Prakash Joshi @prakashj1965
+User ID: 2916181465
+
+

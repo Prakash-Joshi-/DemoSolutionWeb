@@ -1,0 +1,96 @@
+﻿<appSchedule>
+  <xs:schema id="appSchedule"
+      xmlns=""
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="appSchedule" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="task">
+            <xs:complexType>
+              <xs:attribute name="name" type="xs:string" />
+              <xs:attribute name="exePath" type="xs:string" />
+              <xs:attribute name="time" type="xs:string" />
+              <xs:attribute name="repeat" type="xs:string" />
+              <xs:attribute name="tvalue" type="xs:string" />
+              <xs:attribute name="runningmode" type="xs:string" />
+              <xs:attribute name="StartTime" type="xs:string" />
+              <xs:attribute name="EndTime" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <task name="itemfeedwebsend" exePath="http://msq.utsav.co/itemfeedweb/itemfeedweb.svc/SendMsgToAws" time="01/20/2017 13:01" repeat="itemfeedwebsend_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="itemfeedwebsend" exePath="http://msq.utsav.co/itemfeedweb/itemfeedweb.svc/SendMsgToAws" time="01/20/2017 13:01" repeat="itemfeedwebsend_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="product" exePath="http://msq.utsav.co/product/product.svc/SendMsgToAws" time="01/20/2017 13:01" repeat="product_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="product" exePath="http://msq.utsav.co/product/product.svc/SendMsgToAws" time="01/20/2017 13:01" repeat="product_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Order" exePath="http://msq.utsav.co/order/order.svc/SendMsgToAws" time="01/20/2017 12:52" repeat="order_m" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MagentoProductsend" exePath="http://services.utsavfashion.com:5000/Product/MDM/Get.svc/SendAll" time="01/20/2017 12:56" repeat="minute" tvalue="10" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Hscode" exePath="http://msq.utsav.co/Hscode/Hscode.svc/SendMsgToAws" time="01/20/2017 13:01" repeat="hscode_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Measurement" exePath="http://msq.utsav.co/Measurement/Measurement.svc/SendMsgToAws" time="01/20/2017 13:01" repeat="measurement_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="GcFeed" exePath="http://msq.utsav.co/GcFeed/GcFeed.svc/SendMsgToAws" time="01/20/2017 13:16" repeat="gcfeed_m" tvalue="30" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="virtualInventory" exePath="http://msq.utsav.co/virtualInventory/virtualInventory.svc/SendMsgToAws" time="08/27/2015 13:04" repeat="virtualinventory_m" tvalue="60" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="phyInventory" exePath="http://msq.utsav.co/PhyInventory/PhyInventory.svc/ReadMessagFromAws" time="01/20/2017 13:01" repeat="phyinventory_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="pglsn" exePath="http://oms.utsav.co/pg/default.aspx" time="01/20/2017 12:49" repeat="pglsn_m" tvalue="3" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="googlefeed" exePath="http://data.utsav.co/GoogleFeed/GoogleFeedService.svc/Getgooglefeedprice" time="12/20/2016 13:31" repeat="googlefeed_m" tvalue="30" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="vendoroms" exePath="http://msq.utsav.co/vendor/vendor.svc/ReadMessagFromAws_Oms" time="01/20/2017 13:16" repeat="vendor_oms" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="vendormdm" exePath="http://msq.utsav.co/vendor/vendor.svc/ReadMessagFromAws_Mdm" time="01/20/2017 13:16" repeat="vendor_mdm" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="OrderModification" exePath="http://msq.utsav.co/OrderModification/OrderModification.svc/ReadMessagFromAws" time="01/20/2017 12:52" repeat="ordermodification_m" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="agentvendor" exePath="http://msq.utsav.co/AgentVendorRelation/AgentVendor.svc/ReadMessagFromAws" time="01/20/2017 13:16" repeat="agentvendor_m" tvalue="30" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="ReturnOrder" exePath="http://msq.utsav.co/returnOrder/returnOrder.svc/SendMsgToAws" time="01/20/2017 13:16" repeat="returnorder_m" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="ebayusdupdate" exePath="http://utsavthirdpartyservices.alliences/thirdparty.svc/UpdatePriceShipptime" time="04/06/2015 11:58" repeat="M" tvalue="120" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="createnewitem" exePath="http://utsavthirdpartyservices.alliences/ThirdParty.svc/itemtype" time="01/20/2017 13:16" repeat="createnewitem_m" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="invoicetracking" exePath="http://msq.utsav.co/Invoicelog/invoicelog.svc/ReadMessagFromAws" time="01/20/2017 13:01" repeat="invoicetracking_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="awbinvoiceno" exePath="http://msq.utsav.co/Invoicelog/invoicelog.svc/ReadMessagFromAws" time="04/16/2015 12:16" repeat="awbinvoiceno_m" tvalue="30" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="updatepriceshipptime" exePath="http://utsavthirdpartyservices.alliences/ThirdParty.svc/UpdatePriceShipptime" time="01/20/2017 12:56" repeat="updatepriceshipptime_m" tvalue="20" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="createnewitem" exePath="http://utsavthirdpartyservices.alliences/ThirdParty.svc/itemtype" time="01/20/2017 13:16" repeat="createnewitem_m" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="EbayIndiaUpdate" exePath="http://utsavthirdpartyservices.alliences/thirdparty.svc/UpdatePriceShipptimeEbayIn" time="01/20/2017 12:56" repeat="minute" tvalue="20" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Amazonupdate" exePath="http://utsavthirdpartyservices.alliences/thirdparty.svc/UpdateFeedPriceQuantity" time="01/20/2017 13:52" repeat="minute" tvalue="120" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="JungLeeUpdates" exePath="http://mag.utsavdevelopment.org/Product/MDM/Get.svc/sendall" time="02/24/2016 16:35" repeat="minute" tvalue="15" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="EbayIndiaListItem" exePath="http://utsavthirdpartyservices.alliences/thirdparty.svc/itemtypeIN" time="01/20/2017 13:16" repeat="minute" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="AmazonUpload" exePath="http://utsavthirdpartyservices.alliences/thirdparty.svc/submitfeed" time="01/20/2017 16:40" repeat="day" tvalue="7" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Jungleeupload" exePath="http://mag.utsavdevelopment.org/Product/Magento/Get.svc/readall" time="02/24/2016 16:24" repeat="minute" tvalue="1" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="addressupdate" exePath="http://msq.utsav.co/Address/Address.svc/ReadAddessMessagFromAws" time="01/20/2017 13:16" repeat="minute" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="vendorstkupdate" exePath="http://msq.utsav.co/VPanel/vendorfeedService.svc/VendorReqestForStock" time="11/11/2016 12:48" repeat="minute" tvalue="120" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="VendorPrice" exePath="http://msq.utsav.co/VendorPrice/VendorPrice.svc/SendMsgToAws" time="01/20/2017 13:01" repeat="minute" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="dispatchemail" exePath="http://msq.utsav.co/TrackEmail/TrackEmail.svc/SendEmail" time="01/20/2017 13:16" repeat="dispatchemail_m" tvalue="30" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="ImageBase" exePath="http://msq.utsav.co/ImageBase64/ImageBase64.svc/ReadMessagFromAws" time="04/23/2016 15:08" repeat="minute" tvalue="5" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="WebToMagentoInventorySend" exePath="http://services.utsavfashion.com:5000/Product/Inventory/Set.svc/UpdateAll" time="01/20/2017 12:49" repeat="minute" tvalue="3" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="agentoms" exePath="http://msq.utsav.co/agent/agent.svc/ReadMessagFromAws_Oms" time="01/20/2017 13:16" repeat="agent_oms" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MagentoProductread" exePath="http://services.utsavfashion.com:5000/Product/Magento/Get.svc/ReadAll?key=1232" time="01/20/2017 12:49" repeat="minute" tvalue="1" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MagentoProductreadFault" exePath="http://services.utsavfashion.com:5000/Product/Magento/Get.svc/FaultReadAll?key=123" time="01/20/2017 12:50" repeat="minute" tvalue="2" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MediaUpdate" exePath="http://services.utsavfashion.com:5000/Media/Get.svc/ReadMedia" time="01/20/2017 13:01" repeat="minute" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MediaInsert" exePath="http://services.utsavfashion.com:5000/Media/Get.svc/ReadMediaAll" time="01/20/2017 13:01" repeat="minute" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CustomerBalanceUpdate" exePath="http://services.utsavfashion.com:5000/Customer/StoreCredit/Set.svc/StoreCreditUpdateall" time="01/20/2017 13:16" repeat="minute" tvalue="30" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Featureupdate" exePath="http://services.utsavfashion.com:5000/Product/Feature/Set.svc/UpdateAll?key=123" time="01/20/2017 12:52" repeat="minute" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="itemfeedwebread" exePath="http://msq.utsav.co/itemfeedweb/itemfeedweb.svc/ReadMessagFromAws" time="01/20/2017 13:01" repeat="itemfeedwebread_m" tvalue="15" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="RefundMailTrack" exePath="http://data.utsav.co/RefundMailService/orderrefundemail.asmx/orderrefundemailsend" time="01/20/2017 13:16" repeat="minute" tvalue="30" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Sailthruemailpublish" exePath="http://services.utsavfashion.com:5000/Sailthru/Set.svc/Setid?key=123" time="01/20/2017 12:49" repeat="minute" tvalue="1" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="WebtoOMScustomerV2" exePath="http://services.utsavfashion.com:5000/Customer/OMS/Set.svc/SetAllOmsCustomer?key=123456" time="01/12/2017 11:46" repeat="minute" tvalue="2" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="OmstoMagentocustomerV2" exePath="http://services.utsavfashion.com:5000/Customer/Magento/Set.svc/SetCustomerv2?key=123456" time="01/12/2017 11:46" repeat="minute" tvalue="2" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MagentotoOMSCustomer" exePath="http://services.utsavfashion.com:5000/Customer/Magento/Get.svc/ReadAll?key=123" time="01/20/2017 12:52" repeat="minute" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="FreshDeskOrderFeed" exePath="http://msq.utsav.co/FreshdeskOrder/FreshdeskOrder.svc/SendMsgToAws" time="01/20/2017 13:16" repeat="minute" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="UpdateVisibility" exePath="http://services.utsavfashion.com:5000/Product/Inventory/Set.svc/UpdateAllVisiblity?key=123" time="01/20/2017 19:02" repeat="hour" tvalue="12" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="WebToMagentoInventorySend" exePath="http://services.utsavfashion.com:5000/Product/Inventory/Set.svc/UpdateAll" time="01/20/2017 12:49" repeat="minute" tvalue="3" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CreateOrderOms" exePath="http://services.utsavfashion.com:5000/Order/Magento/Get.svc/ReadAll?key?123" time="01/20/2017 12:50" repeat="minute" tvalue="2" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Updateorderstatus" exePath="http://services.utsavfashion.com:5000/Order/Magento/Set.svc/updateorderstatus" time="01/20/2017 12:52" repeat="minute" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="VendorPoFeedRead" exePath="http://msq.utsav.co/VendorPoFeed/VendorPoFeed.svc/ReadMessagFromAws_POFeed" time="01/20/2017 13:52" repeat="minute" tvalue="120" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="ApiOrderFeed" exePath="http://msq.utsav.co/ApiOrder/ApiOrder.svc/SendMsgToAws" time="01/20/2017 12:52" repeat="minute" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CustomTailoringMail" exePath="http://data.utsav.co/UdesignMailService/measurementmail.asmx/measurementmailsend" time="01/20/2017 12:56" repeat="minute" tvalue="10" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="VendorVsqandttsFeed" exePath="http://msq.utsav.co/VendorVsqandtts/VendorVsqandtts.svc/SendMsgToAws" time="01/20/2017 12:52" repeat="minute" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MagtoOmsMeasurement" exePath="http://services.utsavfashion.com:5000/Product/Measurement/SendToOMS.svc/Sendall" time="01/20/2017 12:49" repeat="minute" tvalue="1" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="PostOrderMeasurement" exePath="http://services.utsavfashion.com:5000/Product/Measurement/PostOrderMeasurement.svc/readall" time="01/20/2017 12:49" repeat="minute" tvalue="1" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MDMtoOMSItemFeedReed" exePath="http://services.utsavfashion.com:5000/Product/ItemFeed/Set.svc/ReadAll" time="11/22/2016 13:32" repeat="minute" tvalue="5" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MDMtoOMSItemFeedSend" exePath="http://services.utsavfashion.com:5000/Product/ItemFeed/Get.svc/SendAll" time="11/22/2016 13:32" repeat="minute" tvalue="5" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MDMtoWEBSIzeChartReed" exePath="http://services.utsavfashion.com:5000/Product/SizeChart/Set.svc/ReadAll" time="11/22/2016 13:32" repeat="minute" tvalue="5" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="MDMtoWEBSIzeChartSend" exePath="http://services.utsavfashion.com:5000/Product/SizeChart/Get.svc/SendAll" time="11/22/2016 13:32" repeat="minute" tvalue="5" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CustomizationMmtsoursefuse" exePath="http://services.utsavfashion.com:5000/Product/Customization/measurements.svc/SendAll" time="01/20/2017 12:50" repeat="minute" tvalue="2" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CustomizationMmtRead" exePath="http://services.utsavfashion.com:5000/Product/Customization/set.svc/ReadAll" time="03/18/2016 20:12" repeat="minute" tvalue="5" runningmode="off" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CustomizationMMtSend" exePath="http://services.utsavfashion.com:5000/Product/Customization/Get.svc/SendAll" time="01/20/2017 12:50" repeat="minute" tvalue="2" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="Udesignmmtmailsend" exePath="http://services.utsavfashion.com:5000/Product/Measurement/Mail.svc/SendAll" time="01/20/2017 12:52" repeat="minute" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CreateOrderOmsFault" exePath="http://services.utsavfashion.com:5000/Order/Magento/Get.svc/ReadFaultAll?key?123" time="01/20/2017 12:52" repeat="minute" tvalue="5" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CreateOMSOrderFromList" exePath="http://services.utsavfashion.com:5000/Order/Magento/Get.svc/ReadOrderAll?key?123" time="01/20/2017 12:50" repeat="minute" tvalue="2" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+  <task name="CreateOMSOrderFromListexception" exePath="http://services.utsavfashion.com:5000/Order/Magento/Get.svc/ReadOrderEx?key?123" time="01/20/2017 13:17" repeat="minute" tvalue="60" runningmode="on" StartTime="00:00:01" EndTime="23:59:59" />
+</appSchedule>

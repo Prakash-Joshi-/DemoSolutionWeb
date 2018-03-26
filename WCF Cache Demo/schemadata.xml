@@ -1,0 +1,124 @@
+﻿<MeasuremntList xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Mmtinfo">
+  <Measuremntlist>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>Apr 04, 2016</createddate>
+      <id>7536796</id>
+      <mmtname>Blouse2</mmtname>
+      <orderid>UT1512597</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>Apr 11, 2016</createddate>
+      <id>7536839</id>
+      <mmtname>Salwar1</mmtname>
+      <orderid>UT1512618</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>Apr 11, 2016</createddate>
+      <id>7536840</id>
+      <mmtname>Blouse3</mmtname>
+      <orderid>UT1512618</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>May 13, 2016</createddate>
+      <id>7536947</id>
+      <mmtname>Blouse5Govind</mmtname>
+      <orderid>UT1512757</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Lehenga</category>
+      <createddate>May 13, 2016</createddate>
+      <id>7536948</id>
+      <mmtname>Lehenga1Govind</mmtname>
+      <orderid>UT1512757</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>May 13, 2016</createddate>
+      <id>7536949</id>
+      <mmtname>Salwar1Govind</mmtname>
+      <orderid>UT1512757</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>May 13, 2016</createddate>
+      <id>7536951</id>
+      <mmtname>Blouse6</mmtname>
+      <orderid>UT1512757</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>May 28, 2016</createddate>
+      <id>7537011</id>
+      <mmtname>Blouse6p</mmtname>
+      <orderid>UT1512992</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>May 28, 2016</createddate>
+      <id>7537012</id>
+      <mmtname>Blouse6j</mmtname>
+      <orderid>UT1512992</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>May 31, 2016</createddate>
+      <id>7537106</id>
+      <mmtname>Salwar2</mmtname>
+      <orderid>UT1513035</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>May 31, 2016</createddate>
+      <id>7537107</id>
+      <mmtname>Salwar3</mmtname>
+      <orderid>UT1513035</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>May 31, 2016</createddate>
+      <id>7537106</id>
+      <mmtname>Salwar2</mmtname>
+      <orderid>UT1513037</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>May 31, 2016</createddate>
+      <id>7537107</id>
+      <mmtname>Salwar3</mmtname>
+      <orderid>UT1513037</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>Jun 01, 2016</createddate>
+      <id>7537125</id>
+      <mmtname>Blouse6p</mmtname>
+      <orderid>UT1513043</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>May 31, 2016</createddate>
+      <id>7537106</id>
+      <mmtname>Salwar2</mmtname>
+      <orderid>UT1513046</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Salwar</category>
+      <createddate>May 31, 2016</createddate>
+      <id>7537107</id>
+      <mmtname>Salwar3</mmtname>
+      <orderid>UT1513046</orderid>
+    </Measuremnts>
+    <Measuremnts>
+      <category>Saree</category>
+      <createddate>Sep 09, 2016</createddate>
+      <id>7537282</id>
+      <mmtname>Blouse6j</mmtname>
+      <orderid>UT1513617</orderid>
+    </Measuremnts>
+  </Measuremntlist>
+  <exception>0</exception>
+</MeasuremntList>
